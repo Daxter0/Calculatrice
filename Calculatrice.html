@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="Calculatrice.css" rel="stylesheet">
+    <title>Calculatrice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <script type="text/javascript" src="Calculatrice.js"></script>
+        <div class="calculatrice">
+            <div class="ecran">
+                <div id="nombreX"></div>
+                <div id="operateur"></div>
+                <div id="nombreY"></div>
+                <div id="resultat"></div>
+            </div>
+            <div class="touches">
+                <button type="button" onclick="carre()"><i>x</i>²</button>
+                <button type="button" onclick="cube()"><i>x</i>³</button>
+                <button type="button" onclick="racineCarre()">&#8730;<i>x</i></button>
+                <button type="button" onclick="pi()">π</button>
+                <button type="button" onclick="ce()">CE</button>
+                <button type="button" onclick="c()">C</button>
+                <button type="button" onclick="del()">←</button>
+                <button type="button" onclick="operateur('/')">/</button>
+                <button type="button" onclick="getValue('7')">7</button>
+                <button type="button" onclick="getValue('8')">8</button>
+                <button type="button" onclick="getValue('9')">9</button>
+                <button type="button" onclick="operateur('*')">*</button>
+                <button type="button" onclick="getValue('4')">4</button>
+                <button type="button" onclick="getValue('5')">5</button>
+                <button type="button" onclick="getValue('6')">6</button>
+                <button type="button" onclick="operateur('-')">-</button>
+                <button type="button" onclick="getValue('1')">1</button>
+                <button type="button" onclick="getValue('2')">2</button>
+                <button type="button" onclick="getValue('3')">3</button>
+                <button type="button" onclick="operateur('+')">+</button>
+                <button type="button" onclick="positifNegatif()">+/-</button>
+                <button type="button" onclick="getValue('0')">0</button>
+                <button type="button" onclick="virgule()">,</button>
+                <button type="button" onclick="result()">=</button>
+            </div>
+        </div>
+    </body>
+</html>
